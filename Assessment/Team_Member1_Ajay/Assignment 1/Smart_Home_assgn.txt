@@ -6,6 +6,7 @@ const int echoPin = 6; // Echo Pin of Ultrasonic Sensor
 int tempPin=0;
 void setup()
 {
+  
   Serial.begin(9600); // Starting Serial Terminal
   pinMode(LED_BUILTIN, OUTPUT);
   pinMode(3,OUTPUT);
